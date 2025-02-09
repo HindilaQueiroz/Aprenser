@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#FED001*/
+.barradark{
+    background-color: rgb(63, 63, 63);
+    padding: 16px;
+}
+
+.maiuscula{
+    text-transform: uppercase;  
+}
+
+.container{
+    max-width:1276px; /*a tela nao passa de 1276 de largura*/
+    margin: auto;
+
+} 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav ul{
+    display: flex; /*SERVE PARA COLOCAR A NAV PARA O LADO ESQUERDO PARA SERVIR DE MENU*/
+    gap: 8px; /*so funciona dentro da UL - usar na separação dos menus */
+}
+
+.header-nav a{
+    color: #FED001; /*cor no menu*/
+    font-size: 18px; /*tamanho da fonte */
+    border: solid 1px; /*borda no menu*/
+    padding: 12px 28px; /* espaço do quadrado ALTURA E LARGURA */ 
+    align-items: center;/* centralizar o texto do menu dentro do quadrado */ 
+    text-decoration: none; /* nome retira a linha de decoração no menu  */ 
+}
+
+.header-nav a:hover{
+    background-color: black;     /* o hover faz pinta o  menusnquando passa o mouse*/            
+}
+
+.herobanner{ /* essa classe centraliza o texto no banner */ 
+    display: flex; /* arruma um em bx do outro ou um do lado do outro  */ 
+    justify-content: space-between; /* para da um espaço entre o P e o Botao  */ 
+    align-items: center; /* para alinhar os itens da div no centro - na vertical*/
+    gap: 130px;
+}
+
+.fndmedio{
+    background-image: linear-gradient(transparent, yellow);
+    margin-bottom: 0;
+    
+}
+
+.header-content h1{
+    font-size: 48px; /* cresce a letra   */ 
+    margin-bottom: 80px; /* para criar um espaço entre a frase e botao */ 
+}
+
+.btn{
+    background-color: #FED001;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 16px 46px;
+}
+
+.fndlight{  /* cor em uma parte do site  */ 
+    background-color: rgb(252, 252, 252);
+    padding: 1px;
+}
+
+.container h2{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    padding: 20px 20px 30px 20px;   /* ajustar o tamanho da margem   */     
+}
+
+.cursocontent{
+    display: flex;  /* organizar os quadro um ao lado do outro */ 
+    gap: 30px;  /* separar um quadro do outro  */ 
+}
+   
+.curso-card h3{
+    font-size: 30px; 
+    margin: 16px;
+    padding: 10px 10px 10px 0;
+}
+
+.curso-card p{
+    font-size: 18px;
+    line-height: 1.5; /* ESPAÇO ENTRE AS LINHAS  */
+    margin: 16px;
+}
+
+.curso-card{
+  padding: 1px;  /* a borda proximo da imagem  */ 
+  border: 1px solid #ccc;  /* cor da linha da borda  */ 
+  border-radius: 10px 10px 8px 8px;  /* a curva da borda */ 
+  
+}
+
+.btn-1{
+    background-color: #FED001;
+    border-radius: 4px; /*formato do botaao*/
+    font-size: 18px;
+    text-decoration: none;
+    padding: 16px 25px; 
+    margin: 50px 540px; /* altura da posição do botão  */ 
+    color: rgb(110, 109, 109);
+    display: inline-block;
+}
+
+.fnddark1{
+    background-color: rgb(3, 3, 84);
+}
+
+.herototal{
+    display: flex;
+    gap: 30px;
+}
+
+.herocontant h2{
+    color: #ccc;
+    text-align: left;
+    margin: 50px;
+}
+
+.herocontant p{
+    color: #ccc;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 50px;
+}
+
+.fndmap{
+    background-color: rgb(252, 252, 252);
+}
+
+.endereco{
+    text-align: right;
+}
+
+.fnddark2{
+    background-color: rgb(63, 63, 63);
+    font-size: 16px;
+    text-align: center;
+    padding: 20px; 
+    color: #ccc;
+}
+.fnddark2 a{
+    color: azure;   
+}
+
+
+    
+ /*  */ 
